@@ -238,7 +238,7 @@
     line-height: 28px;
     letter-spacing: 0.5px;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 5em;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
@@ -249,6 +249,110 @@
     text-align: center;
     font-size: 13px;
     margin-bottom: 5em;
+}
+
+.choose_us {
+    background-color: #F6F6F6;
+    margin-top: 8em;
+}
+
+.choose {
+    padding-top: 5em;
+    text-align: left;
+}
+
+.choose h2 {
+    text-align: left;
+    color: #111;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.choose h2::after {
+    display: block;
+    content: "";
+    background: #009bc0;
+    width: 100px;
+    height: 2px;
+    margin-top: 23px;
+    font-family: "Raleway", sans-serif;
+}
+
+.choose_main {
+    margin-top: 2em;
+}
+
+.list_number {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    border: 2px solid #009bc0;
+    color: #009bc0;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature_item {
+    display: flex;
+}
+
+.item_desc {
+    padding-left: 1em;
+}
+
+.item_desc h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+
+}
+
+.item_desc p {
+    padding-top: 27px;
+    padding-bottom: 0;
+    padding: 1em 0;
+    color: #303030;
+    line-height: 24px;
+}
+
+.choose_btn {
+    z-index: 9;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(0, 155, 192);
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    outline: none;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-width: 0px;
+    padding: 16px 37px 17px;
+    font-family: "Raleway", sans-serif;
+}
+
+.choose_btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 155, 192);
+}
+
+.btn_choose {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
 }
 
 @keyframes wiggle {
@@ -373,5 +477,20 @@
     .header_btn_two {
         left: 15%;
         bottom: 13%;
+    }
+
+    .service_one {
+        margin-bottom: 2em;
+    }
+
+    .choose h2 {
+        font-size: 24px;
+    }
+
+    .feature_item {
+        display: block;
+    }
+    .item_desc {
+        margin-top: 2em;
     }
 }

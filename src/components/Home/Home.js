@@ -113,6 +113,79 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="choose_us">
+            <div className="container">
+              <div className="choose">
+                <h2>WHY YOU CAN CHOOSE US</h2>
+                <div className="row choose_main">
+                  <div className="col-md-6 feature_item">
+                    <div className="list_number">1</div>
+                    <div className="item_desc">
+                      <h4>WE PRIORITIZE OUR CUSTOMERS</h4>
+                      <p>
+                        Our staff members are trained professionals and we are
+                        all passionate about helping you with your daily errands
+                        and home chores, especially if you’re unable to get them
+                        done on time. Nothing is more important to us than your
+                        satisfaction and that’s why we aim to always provide top
+                        quality services to you.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-md-6 feature_item">
+                    <div className="list_number">2</div>
+                    <div className="item_desc">
+                      <h4>WE'LL HELP YOU SAVE TIME</h4>
+                      <p>
+                        Do you have an important project to complete? Or do you
+                        prefer to spend your time with family and friends doing
+                        the things you enjoy most? If the answer is yes to these
+                        2 questions, then you’re in the right place! We’ll help
+                        you save your valuable time by handling all of your
+                        tedious tasks on your to-do lists. That way you can
+                        focus on your top priorities without having to worry
+                        about the small stuff.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="row choose_main">
+                  <div className="col-md-6 feature_item">
+                    <div className="list_number">3</div>
+                    <div className="item_desc">
+                      <h4>OUR TEAMS ARE RELIABLE & TRUSTWORTHY</h4>
+                      <p>
+                        Our customers are important to us and so is our
+                        reputation. We know you depend on us to help you save
+                        time so you can focus on what matters most to you, and
+                        we promise to always be there when you need us! At the
+                        end of the day, we want to be known as the company you
+                        can trust and completely rely on to get things done when
+                        you need it!
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-md-6 feature_item">
+                    <div className="list_number">4</div>
+                    <div className="item_desc">
+                      <h4>WE'RE LICENSED, BONDED & INSURED</h4>
+                      <p>
+                        We are 100% committed to following all the rules of
+                        operating a small business in Dallas, Texas, and for
+                        this reason, we have ensured that our company and our
+                        staff members are fully licensed, bonded and insured.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="btn_choose">
+                  <button className="choose_btn">
+                    Submit A Service Request
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </React.Fragment>
     );
