@@ -1,0 +1,19 @@
+.custom_nav {
+    background-color: white !important;
+    box-shadow: 0 2px 2px -2px gray;
+}
+
+.nav_items {
+    color: black !important;
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+
+.nav_items a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_items a:hover {
+    color: #009bc0;
+}
