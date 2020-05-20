@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import PhoneNumber from "react-phone-number";
 import CustomNav from "../Navbar/CustomNav";
 
 import "./style.css";
+import Footer from "../Footer/Footer";
 
 class Home extends Component {
   render() {
@@ -31,7 +33,8 @@ class Home extends Component {
                   Book Housekeeping Services
                 </button>
                 <button className="header_btn_two">
-                  <i className="fa fa-phone" /> Call Us: 000-000-0000
+                  <i className="fa fa-phone" /> Call Us:
+                  <PhoneNumber number="+2348116557414" isLinked={true} />
                 </button>
               </div>
               <div class="carousel-item">
@@ -49,7 +52,8 @@ class Home extends Component {
                   Submit A Service Request
                 </button>
                 <button className="header_btn_two">
-                  <i className="fa fa-phone" /> Call Us: 000-000-0000
+                  <i className="fa fa-phone" /> Call Us:
+                  <PhoneNumber number="+2348116557414" isLinked={true} />
                 </button>
               </div>
             </div>
@@ -186,7 +190,58 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="design_header">
+            <h2 className="section-title">Need Help Today?</h2>
+            <hr className="header_underline" />
+          </div>
+          <p className="how_it">Here’s how it works…</p>
+          <div class="container how_it_works">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="service_two">
+                  <h4>
+                    <span>1.</span>Tell Us About Your Tasks
+                  </h4>
+                  <p>
+                    Give us a call, send a text message or submit your <br />
+                    request online. Whatever your needs are, we’re here and
+                    <br />
+                    ready to help!
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="service_two">
+                  <h4>
+                    <span>2.</span>We'll Get Them Done For You
+                  </h4>
+                  <p>
+                    Once we have all the details about your tasks, we’ll <br />
+                    schedule a date and time to get started and we’ll handle{" "}
+                    <br />
+                    the rest.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <div class="service_two">
+                  <h4>
+                    <span>3.</span>Enjoy Your Free Time
+                  </h4>
+                  <p>
+                    While we’re running your errands or cleaning your home,
+                    <br /> you can simply relax, work on your projects or do
+                    <br /> whatever makes you happy!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="btn_choose">
+              <button className="choose_btn">Submit A Service Request</button>
+            </div>
+          </div>
         </div>
+        <Footer />
       </React.Fragment>
     );
   }

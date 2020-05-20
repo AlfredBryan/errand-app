@@ -1,0 +1,56 @@
+.svg_roll {
+    background-color: #272d2e;
+}
+
+.svg_design {
+    margin: 2em;
+}
+
+.svg_area {
+    display: flex;
+}
+
+.svg_feature {
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFF;
+    font-weight: 300;
+    margin-top: 1em;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.label_svg {
+    display: block;
+    margin-top: 7px;
+    color: #80888A;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-top: 2em;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer {
+    background: #343C3E;
+    height:4em
+}
+
+.copyright {
+    color: #B6BDBF;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    padding-top: 1em;
+}
+
+.copyright span {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer_class {
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
