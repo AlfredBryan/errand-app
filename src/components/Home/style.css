@@ -593,7 +593,7 @@
   }
 
   .svg_feature {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     margin-top: 0.5em;
 
@@ -602,5 +602,11 @@
   .label_svg {
     line-height: 22px;
     margin-top: 2.5em;
+  }
+  .service_two p {
+    font-size: 11px;
+  }
+  .service_one p {
+    font-size: 11px;
   }
 }
