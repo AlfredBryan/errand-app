@@ -48,10 +48,10 @@ class Home extends Component {
                 <h6 className="sub_head">
                   Grocery Shopping, Errands, New Mom Assistance And Much More!
                 </h6>
-                <button className="header_btn_one">
+                <button className="header_two_btn_one">
                   Submit A Service Request
                 </button>
-                <button className="header_btn_two">
+                <button className="header_two_btn_two">
                   <i className="fa fa-phone" /> Call Us:
                   <PhoneNumber number="+2348116557414" isLinked={true} />
                 </button>

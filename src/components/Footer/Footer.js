@@ -105,7 +105,7 @@ class Footer extends Component {
                         </svg>
                       </span>
                       <div>
-                        <label className="label_svg"> Zara Errands</label>
+                        <label className="label_svg"> Macalfred's Errands</label>
                         <p className="svg_feature">Licensed & Fully Insured</p>
                       </div>
                     </div>

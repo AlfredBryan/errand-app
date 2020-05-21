@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.about_main {
+    margin-top: 55px;
+}
+
+.about_header {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    padding-top: 1.5em;
+    text-align: left;
+}
+
+.header_area {
+    background: #E5E5E5;
+    height: 6em;
+}
+
+.f_p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0;
+    margin-top: 41px;
+    color: #303030;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+}
+
+.choose_abt {
+    z-index: 9;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(0, 155, 192);
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    outline: none;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-width: 0px;
+    padding: 16px 37px 17px;
+    font-family: "Raleway", sans-serif;
+}
+
+.choose_abt:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 155, 192);
+}
+
+.abt_choose {
+    margin-top: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+.align_footer {
+    margin-top: 60em;
+}
+
+@media only screen and (max-width: 400px) {
+    .align_footer {
+        margin-top: 100em;
+    }
+    
+ }
