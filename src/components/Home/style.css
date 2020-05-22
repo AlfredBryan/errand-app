@@ -492,55 +492,6 @@
   text-align: center;
 }
 
-.svg_roll {
-  background-color: #272d2e;
-}
-
-.svg_design {
-  margin: 2em;
-}
-
-.svg_area {
-  display: flex;
-}
-
-.svg_feature {
-  font-size: 19px;
-  line-height: 30px;
-  color: #fff;
-  font-weight: 300;
-  margin-top: 1em;
-  font-family: "Raleway", sans-serif;
-}
-
-.label_svg {
-  display: block;
-  margin-top: 7px;
-  color: #80888a;
-  letter-spacing: 2px;
-  line-height: 22px;
-  margin-top: 2em;
-  font-family: "Raleway", sans-serif;
-}
-
-.footer {
-  background: #343c3e;
-}
-
-.copyright {
-  color: #b6bdbf;
-  line-height: 24px;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-}
-
-.copyright span {
-  padding-right: 0.5em;
-  padding-left: 0.5em;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-}
-
 @keyframes wiggle {
   0% {
     -webkit-transform: rotateZ(0);

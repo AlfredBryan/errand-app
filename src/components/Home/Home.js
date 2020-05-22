@@ -105,13 +105,12 @@ class Home extends Component {
               </div>
               <div class="col-12 col-sm-6 col-md-4">
                 <div class="service_one">
-                  <h4>NEW MOM SUPPORT SERVICES</h4>
+                  <h4>CLEANING SERVICES</h4>
                   <p>
-                    Being a new mom is exciting, but trying to get <br />
-                    things done around the home while taking care <br />
-                    of a new baby can be quite challenging. That's <br />
-                    why we created this special package to help you <br />
-                    navigate through it all
+                    Want an old unoccupied house cleaned in preparation <br />
+                    for return, call us. Need regular cleaners for your <br />
+                    office complex,banking halls, hotels, company... <br />
+                    Contact us now <br />
                   </p>
                 </div>
               </div>

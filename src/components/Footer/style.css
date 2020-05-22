@@ -32,7 +32,7 @@
 
 .footer {
     background: #343C3E;
-    height:4em
+    height: 4em
 }
 
 .copyright {
@@ -55,16 +55,16 @@
     margin-bottom: 0px !important;
 }
 
-@media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 400px) {
     .svg_feature {
-      font-size: 1px;
-      line-height: 20px;
-      margin-top: 0.5em;
-  
+        font-size: 1px;
+        line-height: 20px;
+        margin-top: 0.5em;
+
     }
-  
+
     .label_svg {
-      line-height: 22px;
-      margin-top: 2.5em;
+        line-height: 22px;
+        margin-top: 2.5em;
     }
-  }
+}
