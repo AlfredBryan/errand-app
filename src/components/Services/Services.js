@@ -72,7 +72,14 @@ class Services extends Component {
                 </div>
               </div>
               <div className="abt_choose">
-                <button className="choose_abt">Request A Service Today</button>
+                <button
+                  onClick={() => {
+                    this.props.history.push("/public/form/view");
+                  }}
+                  className="choose_abt"
+                >
+                  Request A Service Today
+                </button>
               </div>
             </div>
           </div>

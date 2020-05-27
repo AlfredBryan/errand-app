@@ -19,13 +19,13 @@ class AboutUs extends Component {
                 <hr className="header_underline" />
               </div>
               <p className="f_p">
-                Macalfred's Errands, LLC specializes in providing Errand
-                Services and Personal Assistant Services to the residents of
-                Enugu town. When we first started our company in 2019, our goal
-                and mission were to always provide professional, trustworthy,
-                reliable and convenient services to busy individuals and
-                families who struggle with completing their daily errands,
-                to-do’s, and home chores.
+                Macalfred's Errands,specializes in providing Errand Services and
+                Personal Assistant Services to the residents of Enugu town. When
+                we first started our company in 2019, our goal and mission were
+                to always provide professional, trustworthy, reliable and
+                convenient services to busy individuals and families who
+                struggle with completing their daily errands, to-do’s, and home
+                chores.
               </p>
               <p className="f_p">
                 At MacAlfred's Errands, we know and understand that life can be
@@ -50,7 +50,12 @@ class AboutUs extends Component {
                 you!
               </p>
               <div className="abt_choose">
-                <button className="choose_abt">
+                <button
+                  onClick={() => {
+                    this.props.history.push("/public/form/view");
+                  }}
+                  className="choose_abt"
+                >
                   Submit A Service Request Today
                 </button>
               </div>

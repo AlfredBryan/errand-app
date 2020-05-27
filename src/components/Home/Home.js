@@ -29,7 +29,12 @@ class Home extends Component {
                 <h6 className="new_sub_head">
                   Light Cleaning, Laundry, Ironing, Dishes and Much More!
                 </h6>
-                <button className="header_btn_one">
+                <button
+                  onClick={() => {
+                    this.props.history.push("/public/form/view");
+                  }}
+                  className="header_btn_one"
+                >
                   Book Housekeeping Services
                 </button>
                 <button className="header_btn_two">
@@ -48,7 +53,12 @@ class Home extends Component {
                 <h6 className="sub_head">
                   Grocery Shopping, Errands, New Mom Assistance And Much More!
                 </h6>
-                <button className="header_two_btn_one">
+                <button
+                  onClick={() => {
+                    this.props.history.push("/public/form/view");
+                  }}
+                  className="header_two_btn_one"
+                >
                   Submit A Service Request
                 </button>
                 <button className="header_two_btn_two">
@@ -71,7 +81,7 @@ class Home extends Component {
           </div>
           <div className="container">
             <p className="s_desc">
-              We provide a variety of home and lifesyle management services to
+              We provide a variety of home and lifestyle management services to
               our neighbors in Enugu and the surrounding areas. Our goal is to
               help you save time so you can focus on your top priorities, so
               whatever you don’t have time to do, we can do it for you!
@@ -168,21 +178,14 @@ class Home extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-6 feature_item">
-                    <div className="list_number">4</div>
-                    <div className="item_desc">
-                      <h4>WE'RE LICENSED, BONDED & INSURED</h4>
-                      <p>
-                        We are 100% committed to following all the rules of
-                        operating a small business in Dallas, Texas, and for
-                        this reason, we have ensured that our company and our
-                        staff members are fully licensed, bonded and insured.
-                      </p>
-                    </div>
-                  </div>
                 </div>
                 <div className="btn_choose">
-                  <button className="choose_btn">
+                  <button
+                    onClick={() => {
+                      this.props.history.push("/public/form/view");
+                    }}
+                    className="choose_btn"
+                  >
                     Submit A Service Request
                   </button>
                 </div>
@@ -236,7 +239,14 @@ class Home extends Component {
               </div>
             </div>
             <div className="btn_choose">
-              <button className="choose_btn">Submit A Service Request</button>
+              <button
+                onClick={() => {
+                  this.props.history.push("/public/form/view");
+                }}
+                className="choose_btn"
+              >
+                Submit A Service Request
+              </button>
             </div>
           </div>
         </div>
