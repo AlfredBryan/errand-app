@@ -669,4 +669,7 @@
   .service_one p {
     font-size: 11px;
   }
+  .home_main {
+    margin-top: 100px;
+  }
 }
