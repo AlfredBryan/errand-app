@@ -24,7 +24,13 @@ const CustomNav = (props) => {
         expand="md"
         fixed="top"
       >
-        <NavbarBrand href="/">LOGO</NavbarBrand>
+        <NavbarBrand href="/">
+          <img
+            src={require("../../images/logo1.png")}
+            className="logo_bg"
+            alt="logo"
+          />
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

@@ -123,7 +123,7 @@
   font-weight: 500;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
-  background-color: rgb(0, 155, 192);
+  background-color: #f7b13d;
   border-color: rgb(0, 0, 0);
   border-radius: 30px;
   outline: none;
@@ -157,7 +157,7 @@
   font-weight: 500;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
-  background-color: rgb(0, 155, 192);
+  background-color: #f7b13d;
   border-color: rgb(0, 0, 0);
   border-radius: 30px;
   outline: none;
@@ -203,7 +203,7 @@
   font-weight: 500;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
-  background-color: rgb(0, 155, 192);
+  background-color: #f7b13d;
   border-color: rgb(0, 0, 0);
   border-radius: 30px;
   outline: none;
@@ -237,7 +237,7 @@
   font-weight: 500;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
-  background-color: rgb(0, 155, 192);
+  background-color: #f7b13d;
   border-color: rgb(0, 0, 0);
   border-radius: 30px;
   outline: none;
@@ -289,7 +289,7 @@
 }
 
 .header_underline {
-  border: 1px solid #009bc0;
+  border: 1px solid #f7b13d;
   width: 6em;
 }
 
@@ -352,7 +352,7 @@
 .choose h2::after {
   display: block;
   content: "";
-  background: #009bc0;
+  background: #f7b13d;
   width: 100px;
   height: 2px;
   margin-top: 23px;
@@ -368,8 +368,8 @@
   width: 36px;
   height: 36px;
   padding: 8px;
-  border: 2px solid #009bc0;
-  color: #009bc0;
+  border: 2px solid #f7b13d;
+  color: #f7b13d;
   text-align: center;
   font-size: 18px;
   display: flex;
@@ -410,7 +410,7 @@
   font-weight: 500;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
-  background-color: rgb(0, 155, 192);
+  background-color: #f7b13d;
   border-color: rgb(0, 0, 0);
   border-radius: 30px;
   outline: none;
@@ -425,7 +425,7 @@
 .choose_btn:hover {
   background-color: white;
   color: black;
-  border: 2px solid rgb(0, 155, 192);
+  border: 2px solid #f7b13d;
 }
 
 .btn_choose {
@@ -480,7 +480,7 @@
   text-align: center;
 }
 
-.service_two h4 > span {
+.service_two h4>span {
   padding-right: 0.5em;
 }
 
@@ -661,9 +661,11 @@
     line-height: 22px;
     margin-top: 2.5em;
   }
+
   .service_two p {
     font-size: 11px;
   }
+
   .service_one p {
     font-size: 11px;
   }

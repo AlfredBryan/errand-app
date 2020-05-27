@@ -15,5 +15,9 @@
 }
 
 .nav_items a:hover {
-    color: #009bc0;
+    color: #f7b13d;
+}
+
+.logo_bg {
+    height: 4em;
 }

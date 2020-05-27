@@ -10,6 +10,13 @@
     display: flex;
 }
 
+.svg_area img {
+    width: 6em;
+    height: 6em;
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
 .svg_feature {
     font-size: 19px;
     line-height: 30px;
@@ -57,7 +64,7 @@
 
 @media only screen and (max-width: 400px) {
     .svg_feature {
-        font-size: 1px;
+        font-size: 15px;
         line-height: 20px;
         margin-top: 0.5em;
 
@@ -66,5 +73,11 @@
     .label_svg {
         line-height: 22px;
         margin-top: 2.5em;
+    }
+
+    .svg_area img {
+        width: 4em;
+        height: 4em;
+        margin-top: 2.3em;
     }
 }
