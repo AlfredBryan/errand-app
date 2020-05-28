@@ -105,3 +105,32 @@ label > span {
 .react-datepicker-wrapper {
   width: 100% !important;
 }
+
+.choose_submit {
+    z-index: 9;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    background-color: #f7b13d;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    outline: none;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-width: 0px;
+    padding: 16px 37px 17px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .logo-area img {
+        height: 8em;
+        margin-top: 2em;
+        width: 20em;
+      }
+ }
