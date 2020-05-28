@@ -112,10 +112,12 @@ class Form extends Component {
         bank_tranfer,
       })
       .then((res) => {
-        console.log(res);
         this.setState({
           loading: false,
         });
+        if (res.status === 200) {
+          this.props.history.push("/");
+        }
       })
       .catch((error) => {
         this.setState({
