@@ -64,7 +64,6 @@
   white-space: nowrap;
   font-size: 20px;
   line-height: 22px;
-  font-weight: 400;
   color: rgb(255, 255, 255);
   letter-spacing: 0px;
   font-family: "Open Sans", sans-serif;
@@ -84,6 +83,7 @@
   transform-origin: 50% 50% 0px;
   left: 31%;
   bottom: 33%;
+  font-weight: 800;
 }
 
 .new_sub_head {
@@ -92,7 +92,6 @@
   white-space: nowrap;
   font-size: 20px;
   line-height: 22px;
-  font-weight: 400;
   color: rgb(255, 255, 255);
   letter-spacing: 0px;
   font-family: "Open Sans", sans-serif;
@@ -112,6 +111,7 @@
   transform-origin: 50% 50% 0px;
   left: 31%;
   bottom: 33%;
+  font-weight: 800;
 }
 
 .header_btn_one {
@@ -669,6 +669,7 @@
   .service_one p {
     font-size: 11px;
   }
+
   .home_main {
     margin-top: 100px;
   }

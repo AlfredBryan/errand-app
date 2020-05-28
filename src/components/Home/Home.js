@@ -81,8 +81,7 @@ class Home extends Component {
           </div>
           <div className="container">
             <p className="s_desc">
-              We provide a variety of home and lifestyle management services to
-              our neighbors in Enugu and the surrounding areas. Our goal is to
+              We provide a variety of home and lifestyle management services to residents in Enugu and it's environs. Our goal is to
               help you save time so you can focus on your top priorities, so
               whatever you don’t have time to do, we can do it for you!
             </p>
