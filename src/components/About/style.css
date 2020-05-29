@@ -67,7 +67,7 @@
     margin-top: 60em;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
     .align_footer {
         margin-top: 100em;
     }
